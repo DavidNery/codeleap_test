@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html,
+body {
+  min-height: 100dvh;
+  @apply bg-[#DDD];
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
